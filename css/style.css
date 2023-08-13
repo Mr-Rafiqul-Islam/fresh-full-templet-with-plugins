@@ -1,0 +1,605 @@
+/* Common CSS Starts here  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Common CSS Ends here  */
+.navbar {
+    background: #FAE3B6;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.author_btn a {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    background: #FAE3B6;
+    border: 1px solid #FDBB57;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+}
+
+.author_btn a:hover {
+    background: #FDBB57;
+    color: #050505;
+}
+
+#banner {
+    background: #FAE3B6;
+    padding: 120px 0px !important;
+}
+
+.banner_content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #000;
+}
+
+.banner_content p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #000;
+}
+
+.banner_content a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.banner_content a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    background: #000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+#banner .row .col-sm-7 .model{
+    position: relative;
+}
+#banner .row .col-sm-7 .model .model_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#banner .row .col-sm-7 .model .dot {
+    position: absolute;
+    left: 14%;
+    top: 420px;
+}
+/* collection part start  */
+#collection {
+    padding: 125px 0px !important;
+}
+
+.common_head h3 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #000;
+    line-height: 83px;
+}
+
+.item_text {
+    padding: 10px 105px;
+    background: #fff;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.item_text h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+
+/* collection part end */
+
+/* Fashion part start  */
+#fashion {
+    padding-top: 80px;
+    padding-bottom: 125px;
+}
+
+#fashion .row .col-md-6 {
+    position: relative;
+}
+
+#fashion .row .col-md-6 .dot_d {
+    position: absolute;
+    top: -63px;
+    right: -100px;
+    z-index: -1;
+}
+
+#fashion .row .col-md-6 .dot_d1 {
+    position: absolute;
+    bottom: -53%;
+    right: 40%;
+    z-index: -1;
+}
+
+.my-6 {
+    padding: 75px 0;
+}
+
+.txt p {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 70px;
+}
+
+.all_counter {
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 65px;
+    padding-right: 40px;
+    background-color: #FEECC8;
+    margin-top: -70px;
+    border-radius: 15px;
+}
+
+.all_counter .counterr {
+    text-align: center;
+    border-right: 3px solid #bfb196;
+
+}
+
+.brz {
+    border-right: 0px !important;
+}
+
+.all_counter .counterr h3 {
+    font-family: 'Podkova', serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 71px;
+
+}
+
+.all_counter .counterr p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+/* Fashion part end */
+
+/* Top_Sell part start  */
+#top_sell {
+    background: #CFA485;
+    padding-top: 55px;
+    padding-bottom: 188px;
+}
+
+#top_sell .col-md-5 p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Frank Ruhl Libre', serif;
+    line-height: 31px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#top_sell .col-md-5 a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    background: #000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+#top_sell .col-md-5 a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.col-md-7 {
+    padding: 0 10px;
+}
+
+.prdct {
+    margin-bottom: 40px;
+}
+
+.prdct .prdct_text {
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.prdct_text h4 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.prdct_text p {
+    display: inline;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.prdct_text p span {
+    margin-right: 50px;
+    color: #C4C4C4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Top_sell part end  */
+
+/* product part start  */
+#product {
+    padding: 75px 0;
+}
+
+.product_filter_btn {
+    margin: 60px 0;
+}
+
+.product_filter_btn button {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    transition: 0.4s;
+    margin: 0 5px;
+
+}
+
+.product_filter_btn button:hover {
+    border-bottom: 2px solid black;
+    background: #C4C4C4;
+}
+
+.review_icon i {
+    color: #FFAF37;
+}
+
+.prdct_img img {
+    border-radius: 15px;
+}
+
+/* product part end */
+
+/* Deal part start  */
+.deal {
+    padding-top: 55px;
+    padding-bottom: 85px;
+    background: #FAE3B6;
+    border-radius: 10px;
+}
+
+.d_txt p {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    color: #000;
+    margin: 50px 0;
+}
+
+.box {
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    text-align: center;
+    width: 104px;
+    height: 104px;
+}
+
+.box h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+}
+
+.deal a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    background: #000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.deal_btn {
+    margin-top: 60px;
+}
+
+.deal a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#dealing .deal .row .col-md-5 {
+    position: relative;
+}
+
+#dealing .deal .row .col-md-5 .IMG_part {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 60px;
+}
+
+#dealing .deal .row .col-md-5 .points {
+    position: absolute;
+    left: -20px;
+    bottom: -95px;
+}
+/* Deal part end */
+
+/* Testimonial part starts */
+#testimonial {
+    padding-top: 135px;
+    padding-bottom: 60px;
+}
+
+#testimonial .col-md-10 p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.slick_slider .one {
+    background: #FEECC8;
+    padding: 35px 25px;
+    margin: 10px 30px;
+}
+
+.slick_slider {
+    margin-top: 15px;
+    position: relative;
+}
+
+.rview h4 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.rview p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 20px 0;
+}
+
+.identity {
+    text-align: center;
+
+}
+
+.identity img {
+    display: inline-block;
+
+}
+
+.identity h5 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.identity h6 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.prev {
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    top: 100%;
+    z-index: 3;
+    left: 41%;
+}
+
+.next {
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    top: 100%;
+    left: 57%;
+    z-index: 3;
+    transition: 0.4s;
+}
+
+.next:hover {
+    color: #FAE3B6;
+}
+
+.slick-dots {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 25px;
+}
+
+.slick-dots li {
+    padding: 0 10px;
+}
+
+.slick-dots li button {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.08);
+    margin-top: 50px;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.slick-dots li button:hover {
+    background-color: black;
+}
+
+/* Testimonial part end */
+
+/* footer part start  */
+footer {
+    padding-top: 125px;
+    padding-bottom: 115px;
+    background-color: #050505;
+    position: relative;
+}
+
+.footer_link ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer_link ul li {
+    padding: 0 15px;
+}
+
+.footer_link ul li a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer_text {
+    padding-top: 120px;
+    margin: auto;
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer_box {
+    width: 638px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.90);
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_box h4 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* footer part end */
+
+/* collection part start  */
+/* collection part end */
